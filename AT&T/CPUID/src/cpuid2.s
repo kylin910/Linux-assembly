@@ -1,12 +1,21 @@
-#cpuid2.s View the CPUID Vendor ID string using C library calls
+#程序名:cpuid2.s
+#功能:使用Ｃ库函数调用查看处理器生产商ID
+
+
+#定义数据段:
 .section .data
-output:
-    .asciz "The processor Vendor ID is '%s'\n"
+output:.asciz "The processor Vendor ID is '%s'\n"
+
+#定义动态数据段:
 .section .bss
-    .lcomm buffer, 12
+.lcomm buffer, 12
+
+#定义代码段:
 .section .text
-.globl main
-main:
+
+.globl _start
+
+_start:
     movl $0, %eax
     cpuid
     movl $buffer, %edi

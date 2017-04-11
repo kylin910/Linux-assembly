@@ -1,0 +1,66 @@
+debug版本
+1.cpuid1.s编译及运行:
+kylin@kylin-PC:~/workspace/ASSAPP/assembly/AT&T/CPUID/src$ as -gstabs -o ../debug/temp/cpuid1.o cpuid1.s
+kylin@kylin-PC:~/workspace/ASSAPP/assembly/AT&T/CPUID/src$ ld -o ../debug/bin/cpuid1 ../debug/temp/cpuid1.o 
+kylin@kylin-PC:~/workspace/ASSAPP/assembly/AT&T/CPUID/src$ ../debug/bin/cpuid1 
+The processor Vendor ID is 'GenuineIntel'
+kylin@kylin-PC:~/workspace/ASSAPP/assembly/AT&T/CPUID/src$
+
+2.cpuid2.s编译及运行:
+kylin@kylin-PC:~/workspace/ASSAPP/assembly/AT&T/CPUID/src$ as -gstabs -o ../debug/temp/cpuid2.o cpuid2.s
+kylin@kylin-PC:~/workspace/ASSAPP/assembly/AT&T/CPUID/src$ ld -dynamic-linker /lib/ld-linux.so.2 -o ../debug/bin/cpuid2 -lc ../debug/temp/cpuid2.o 
+kylin@kylin-PC:~/workspace/ASSAPP/assembly/AT&T/CPUID/src$ ../debug/bin/cpuid2 The processor Vendor ID is 'GenuineIntel'
+kylin@kylin-PC:~/workspace/ASSAPP/assembly/AT&T/CPUID/src$
+
+3.cpuid3.s编译及运行:
+kylin@kylin-PC:~/workspace/ASSAPP/assembly/AT&T/CPUID/src$ gcc -gstabs -o ../debug/bin/cpuid3 cpuid3.s
+kylin@kylin-PC:~/workspace/ASSAPP/assembly/AT&T/CPUID/src$ ../debug/bin/cpuid3 
+The processor Vendor ID is 'GenuineIntel'
+kylin@kylin-PC:~/workspace/ASSAPP/assembly/AT&T/CPUID/src$
+
+
+
+***************************************************************************************************
+
+
+distribute版本
+1.cpuid1.s编译及运行:
+kylin@kylin-PC:~/workspace/ASSAPP/assembly/AT&T/CPUID/src$ as -o ../distribute/temp/cpuid1.o cpuid1.s
+kylin@kylin-PC:~/workspace/ASSAPP/assembly/AT&T/CPUID/src$ ld -o ../distribute/bin/cpuid1 ../distribute/temp/cpuid1.o 
+kylin@kylin-PC:~/workspace/ASSAPP/assembly/AT&T/CPUID/src$ ../distribute/bin/cpuid1 
+The processor Vendor ID is 'GenuineIntel'
+kylin@kylin-PC:~/workspace/ASSAPP/assembly/AT&T/CPUID/src$
+
+2.cpuid2.s编译及运行:
+kylin@kylin-PC:~/workspace/ASSAPP/assembly/AT&T/CPUID/src$ as -o ../distribute/temp/cpuid2.o cpuid2.s
+kylin@kylin-PC:~/workspace/ASSAPP/assembly/AT&T/CPUID/src$ ld -dynamic-linker /lib/ld-linux.so.2 -o ../distribute/bin/cpuid2 -lc ../distribute/temp/cpuid2.o 
+kylin@kylin-PC:~/workspace/ASSAPP/assembly/AT&T/CPUID/src$ ../distribute/bin/cpuid2 
+The processor Vendor ID is 'GenuineIntel'
+kylin@kylin-PC:~/workspace/ASSAPP/assembly/AT&T/CPUID/src$
+
+3.cpuid3.s编译及运行:
+kylin@kylin-PC:~/workspace/ASSAPP/assembly/AT&T/CPUID/src$ gcc -o ../distribute/bin/cpuid3 cpuid3.s
+kylin@kylin-PC:~/workspace/ASSAPP/assembly/AT&T/CPUID/src$ ../distribute/bin/cpuid3 
+The processor Vendor ID is 'GenuineIntel'
+kylin@kylin-PC:~/workspace/ASSAPP/assembly/AT&T/CPUID/src$ 
+
+
+***************************************************************************************************
+使用ls命令列出debug版本和distribute版本的可执行文件，观察对应可执行文件大小的变化：
+kylin@kylin-PC:~/workspace/ASSAPP/assembly/AT&T/CPUID$ ls -la debug/bin/
+total 48
+drwxrwxr-x 2 kylin kylin 4096 4月  11 11:39 .
+drwxrwxr-x 4 kylin kylin 4096 4月  11 11:38 ..
+-rwxrwxr-x 1 kylin kylin 1072 4月  11 11:28 cpuid1
+-rwxrwxr-x 1 kylin kylin 2440 4月  11 11:36 cpuid2
+-rwxrwxr-x 1 kylin kylin 7780 4月  11 11:39 cpuid3
+kylin@kylin-PC:~/workspace/ASSAPP/assembly/AT&T/CPUID$ ls -la distribute/bin/
+total 48
+drwxrwxr-x 2 kylin kylin 4096 4月  11 11:46 .
+drwxrwxr-x 4 kylin kylin 4096 4月  11 11:23 ..
+-rwxrwxr-x 1 kylin kylin  736 4月  11 11:42 cpuid1
+-rwxrwxr-x 1 kylin kylin 2136 4月  11 11:44 cpuid2
+-rwxrwxr-x 1 kylin kylin 7472 4月  11 11:46 cpuid3
+kylin@kylin-PC:~/workspace/ASSAPP/assembly/AT&T/CPUID$ 
+可以发现debug版本的可执行文件比distribute版本的可执行程序要大。
+
