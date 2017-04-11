@@ -1,0 +1,137 @@
+0    DEBUG [2017-04-11 15:09:29]  Setting default value: false
+7    DEBUG [2017-04-11 15:09:29]  Converting 'Boolean' value 'false' to type 'Boolean'
+7    DEBUG [2017-04-11 15:09:29]      No conversion required, value is already a Boolean
+12   DEBUG [2017-04-11 15:09:29]  Setting default value: 0
+13   DEBUG [2017-04-11 15:09:29]  Converting 'Integer' value '0' to type 'Byte'
+13   DEBUG [2017-04-11 15:09:29]      Converted to Byte value '0'
+14   DEBUG [2017-04-11 15:09:29]  Setting default value:  
+15   DEBUG [2017-04-11 15:09:29]  Converting 'Character' value ' ' to type 'Character'
+15   DEBUG [2017-04-11 15:09:29]      No conversion required, value is already a Character
+16   DEBUG [2017-04-11 15:09:29]  Setting default value: 0
+16   DEBUG [2017-04-11 15:09:29]  Converting 'Integer' value '0' to type 'Double'
+16   DEBUG [2017-04-11 15:09:29]      Converted to Double value '0.0'
+18   DEBUG [2017-04-11 15:09:29]  Setting default value: 0
+18   DEBUG [2017-04-11 15:09:29]  Converting 'Integer' value '0' to type 'Float'
+19   DEBUG [2017-04-11 15:09:29]      Converted to Float value '0.0'
+20   DEBUG [2017-04-11 15:09:29]  Setting default value: 0
+20   DEBUG [2017-04-11 15:09:29]  Converting 'Integer' value '0' to type 'Integer'
+20   DEBUG [2017-04-11 15:09:29]      No conversion required, value is already a Integer
+21   DEBUG [2017-04-11 15:09:29]  Setting default value: 0
+22   DEBUG [2017-04-11 15:09:29]  Converting 'Integer' value '0' to type 'Long'
+22   DEBUG [2017-04-11 15:09:29]      Converted to Long value '0'
+23   DEBUG [2017-04-11 15:09:29]  Setting default value: 0
+23   DEBUG [2017-04-11 15:09:29]  Converting 'Integer' value '0' to type 'Short'
+23   DEBUG [2017-04-11 15:09:29]      Converted to Short value '0'
+25   DEBUG [2017-04-11 15:09:29]  Setting default value: 0.0
+25   DEBUG [2017-04-11 15:09:29]  Converting 'BigDecimal' value '0.0' to type 'BigDecimal'
+25   DEBUG [2017-04-11 15:09:29]      No conversion required, value is already a BigDecimal
+26   DEBUG [2017-04-11 15:09:29]  Setting default value: 0
+27   DEBUG [2017-04-11 15:09:29]  Converting 'BigInteger' value '0' to type 'BigInteger'
+27   DEBUG [2017-04-11 15:09:29]      No conversion required, value is already a BigInteger
+27   DEBUG [2017-04-11 15:09:29]  Setting default value: false
+27   DEBUG [2017-04-11 15:09:29]  Converting 'Boolean' value 'false' to type 'Boolean'
+27   DEBUG [2017-04-11 15:09:29]      No conversion required, value is already a Boolean
+27   DEBUG [2017-04-11 15:09:29]  Setting default value: 0
+27   DEBUG [2017-04-11 15:09:29]  Converting 'Integer' value '0' to type 'Byte'
+28   DEBUG [2017-04-11 15:09:29]      Converted to Byte value '0'
+28   DEBUG [2017-04-11 15:09:29]  Setting default value:  
+28   DEBUG [2017-04-11 15:09:29]  Converting 'Character' value ' ' to type 'Character'
+28   DEBUG [2017-04-11 15:09:29]      No conversion required, value is already a Character
+28   DEBUG [2017-04-11 15:09:29]  Setting default value: 0
+28   DEBUG [2017-04-11 15:09:29]  Converting 'Integer' value '0' to type 'Double'
+28   DEBUG [2017-04-11 15:09:29]      Converted to Double value '0.0'
+29   DEBUG [2017-04-11 15:09:29]  Setting default value: 0
+29   DEBUG [2017-04-11 15:09:29]  Converting 'Integer' value '0' to type 'Float'
+29   DEBUG [2017-04-11 15:09:29]      Converted to Float value '0.0'
+29   DEBUG [2017-04-11 15:09:29]  Setting default value: 0
+29   DEBUG [2017-04-11 15:09:29]  Converting 'Integer' value '0' to type 'Integer'
+29   DEBUG [2017-04-11 15:09:29]      No conversion required, value is already a Integer
+29   DEBUG [2017-04-11 15:09:29]  Setting default value: 0
+29   DEBUG [2017-04-11 15:09:29]  Converting 'Integer' value '0' to type 'Long'
+30   DEBUG [2017-04-11 15:09:29]      Converted to Long value '0'
+30   DEBUG [2017-04-11 15:09:29]  Setting default value: 0
+30   DEBUG [2017-04-11 15:09:29]  Converting 'Integer' value '0' to type 'Short'
+30   DEBUG [2017-04-11 15:09:29]      Converted to Short value '0'
+31   DEBUG [2017-04-11 15:09:29]  Setting default value: 
+31   DEBUG [2017-04-11 15:09:29]  Converting 'String' value '' to type 'String'
+44   DEBUG [2017-04-11 15:09:29]  Setting default value: [Z@5d313b
+44   DEBUG [2017-04-11 15:09:29]  Converting 'boolean[]' value '[Z@5d313b' to type 'boolean[]'
+44   DEBUG [2017-04-11 15:09:29]      No conversion required, value is already a boolean[]
+45   DEBUG [2017-04-11 15:09:29]  Setting default value: [B@1515a2a
+45   DEBUG [2017-04-11 15:09:29]  Converting 'byte[]' value '[B@1515a2a' to type 'byte[]'
+48   DEBUG [2017-04-11 15:09:29]      No conversion required, value is already a byte[]
+49   DEBUG [2017-04-11 15:09:29]  Setting default value: [C@1186756
+49   DEBUG [2017-04-11 15:09:29]  Converting 'char[]' value '[C@1186756' to type 'char[]'
+49   DEBUG [2017-04-11 15:09:29]      No conversion required, value is already a char[]
+50   DEBUG [2017-04-11 15:09:29]  Setting default value: [D@1b62824
+50   DEBUG [2017-04-11 15:09:29]  Converting 'double[]' value '[D@1b62824' to type 'double[]'
+50   DEBUG [2017-04-11 15:09:29]      No conversion required, value is already a double[]
+50   DEBUG [2017-04-11 15:09:29]  Setting default value: [F@7300c0
+50   DEBUG [2017-04-11 15:09:29]  Converting 'float[]' value '[F@7300c0' to type 'float[]'
+50   DEBUG [2017-04-11 15:09:29]      No conversion required, value is already a float[]
+50   DEBUG [2017-04-11 15:09:29]  Setting default value: [I@1de9dee
+50   DEBUG [2017-04-11 15:09:29]  Converting 'int[]' value '[I@1de9dee' to type 'int[]'
+51   DEBUG [2017-04-11 15:09:29]      No conversion required, value is already a int[]
+51   DEBUG [2017-04-11 15:09:29]  Setting default value: [J@1c67ad4
+51   DEBUG [2017-04-11 15:09:29]  Converting 'long[]' value '[J@1c67ad4' to type 'long[]'
+51   DEBUG [2017-04-11 15:09:29]      No conversion required, value is already a long[]
+51   DEBUG [2017-04-11 15:09:29]  Setting default value: [S@1299000
+51   DEBUG [2017-04-11 15:09:29]  Converting 'short[]' value '[S@1299000' to type 'short[]'
+51   DEBUG [2017-04-11 15:09:29]      No conversion required, value is already a short[]
+52   DEBUG [2017-04-11 15:09:29]  Setting default value: [Ljava.math.BigDecimal;@17cf325
+52   DEBUG [2017-04-11 15:09:29]  Converting 'BigDecimal[]' value '[Ljava.math.BigDecimal;@17cf325' to type 'BigDecimal[]'
+52   DEBUG [2017-04-11 15:09:29]      No conversion required, value is already a BigDecimal[]
+52   DEBUG [2017-04-11 15:09:29]  Setting default value: [Ljava.math.BigInteger;@2c3dc9
+52   DEBUG [2017-04-11 15:09:29]  Converting 'BigInteger[]' value '[Ljava.math.BigInteger;@2c3dc9' to type 'BigInteger[]'
+53   DEBUG [2017-04-11 15:09:29]      No conversion required, value is already a BigInteger[]
+53   DEBUG [2017-04-11 15:09:29]  Setting default value: [Ljava.lang.Boolean;@a0e902
+53   DEBUG [2017-04-11 15:09:29]  Converting 'Boolean[]' value '[Ljava.lang.Boolean;@a0e902' to type 'Boolean[]'
+53   DEBUG [2017-04-11 15:09:29]      No conversion required, value is already a Boolean[]
+53   DEBUG [2017-04-11 15:09:29]  Setting default value: [Ljava.lang.Byte;@1f2ddc6
+53   DEBUG [2017-04-11 15:09:29]  Converting 'Byte[]' value '[Ljava.lang.Byte;@1f2ddc6' to type 'Byte[]'
+53   DEBUG [2017-04-11 15:09:29]      No conversion required, value is already a Byte[]
+53   DEBUG [2017-04-11 15:09:29]  Setting default value: [Ljava.lang.Character;@167f106
+54   DEBUG [2017-04-11 15:09:29]  Converting 'Character[]' value '[Ljava.lang.Character;@167f106' to type 'Character[]'
+54   DEBUG [2017-04-11 15:09:29]      No conversion required, value is already a Character[]
+54   DEBUG [2017-04-11 15:09:29]  Setting default value: [Ljava.lang.Double;@325a96
+54   DEBUG [2017-04-11 15:09:29]  Converting 'Double[]' value '[Ljava.lang.Double;@325a96' to type 'Double[]'
+54   DEBUG [2017-04-11 15:09:29]      No conversion required, value is already a Double[]
+54   DEBUG [2017-04-11 15:09:29]  Setting default value: [Ljava.lang.Float;@1b745ab
+54   DEBUG [2017-04-11 15:09:29]  Converting 'Float[]' value '[Ljava.lang.Float;@1b745ab' to type 'Float[]'
+54   DEBUG [2017-04-11 15:09:29]      No conversion required, value is already a Float[]
+55   DEBUG [2017-04-11 15:09:29]  Setting default value: [Ljava.lang.Integer;@acb7f6
+55   DEBUG [2017-04-11 15:09:29]  Converting 'Integer[]' value '[Ljava.lang.Integer;@acb7f6' to type 'Integer[]'
+55   DEBUG [2017-04-11 15:09:29]      No conversion required, value is already a Integer[]
+57   DEBUG [2017-04-11 15:09:29]  Setting default value: [Ljava.lang.Long;@9d9aa4
+58   DEBUG [2017-04-11 15:09:29]  Converting 'Long[]' value '[Ljava.lang.Long;@9d9aa4' to type 'Long[]'
+58   DEBUG [2017-04-11 15:09:29]      No conversion required, value is already a Long[]
+58   DEBUG [2017-04-11 15:09:29]  Setting default value: [Ljava.lang.Short;@9f8e8b
+58   DEBUG [2017-04-11 15:09:29]  Converting 'Short[]' value '[Ljava.lang.Short;@9f8e8b' to type 'Short[]'
+58   DEBUG [2017-04-11 15:09:29]      No conversion required, value is already a Short[]
+58   DEBUG [2017-04-11 15:09:29]  Setting default value: [Ljava.lang.String;@1a40dee
+58   DEBUG [2017-04-11 15:09:29]  Converting 'String[]' value '[Ljava.lang.String;@1a40dee' to type 'String[]'
+58   DEBUG [2017-04-11 15:09:29]      No conversion required, value is already a String[]
+59   DEBUG [2017-04-11 15:09:29]  Setting default value: [Ljava.lang.Class;@ce09eb
+59   DEBUG [2017-04-11 15:09:29]  Converting 'Class[]' value '[Ljava.lang.Class;@ce09eb' to type 'Class[]'
+59   DEBUG [2017-04-11 15:09:29]      No conversion required, value is already a Class[]
+59   DEBUG [2017-04-11 15:09:29]  Setting default value: [Ljava.util.Date;@a8e42c
+59   DEBUG [2017-04-11 15:09:29]  Converting 'Date[]' value '[Ljava.util.Date;@a8e42c' to type 'Date[]'
+59   DEBUG [2017-04-11 15:09:29]      No conversion required, value is already a Date[]
+59   DEBUG [2017-04-11 15:09:29]  Setting default value: [Ljava.util.Calendar;@1f574a4
+59   DEBUG [2017-04-11 15:09:29]  Converting 'Calendar[]' value '[Ljava.util.Calendar;@1f574a4' to type 'Calendar[]'
+59   DEBUG [2017-04-11 15:09:29]      No conversion required, value is already a Calendar[]
+60   DEBUG [2017-04-11 15:09:29]  Setting default value: [Ljava.io.File;@e4b877
+60   DEBUG [2017-04-11 15:09:29]  Converting 'java.io.File[]' value '[Ljava.io.File;@e4b877' to type 'java.io.File[]'
+60   DEBUG [2017-04-11 15:09:29]      No conversion required, value is already a java.io.File[]
+60   DEBUG [2017-04-11 15:09:29]  Setting default value: [Ljava.sql.Date;@f4c588
+60   DEBUG [2017-04-11 15:09:29]  Converting 'java.sql.Date[]' value '[Ljava.sql.Date;@f4c588' to type 'java.sql.Date[]'
+60   DEBUG [2017-04-11 15:09:29]      No conversion required, value is already a java.sql.Date[]
+60   DEBUG [2017-04-11 15:09:29]  Setting default value: [Ljava.sql.Time;@1c33a3e
+60   DEBUG [2017-04-11 15:09:29]  Converting 'java.sql.Time[]' value '[Ljava.sql.Time;@1c33a3e' to type 'java.sql.Time[]'
+61   DEBUG [2017-04-11 15:09:29]      No conversion required, value is already a java.sql.Time[]
+61   DEBUG [2017-04-11 15:09:29]  Setting default value: [Ljava.sql.Timestamp;@1741d27
+61   DEBUG [2017-04-11 15:09:29]  Converting 'java.sql.Timestamp[]' value '[Ljava.sql.Timestamp;@1741d27' to type 'java.sql.Timestamp[]'
+61   DEBUG [2017-04-11 15:09:29]      No conversion required, value is already a java.sql.Timestamp[]
+61   DEBUG [2017-04-11 15:09:29]  Setting default value: [Ljava.net.URL;@159eaa7
+61   DEBUG [2017-04-11 15:09:29]  Converting 'java.net.URL[]' value '[Ljava.net.URL;@159eaa7' to type 'java.net.URL[]'
+61   DEBUG [2017-04-11 15:09:29]      No conversion required, value is already a java.net.URL[]
