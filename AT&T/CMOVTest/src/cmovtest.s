@@ -3,7 +3,7 @@
 
 .section .data
 output:.asciz "The largest value is %d\n"
-value:.int 105,235,61,315,134,221,53,145,117,5
+values:.int 105,235,61,315,134,221,53,145,117,5
 
 .section .text
 
@@ -20,7 +20,7 @@ loop:	movl values(,%edi,4),%eax
 	cmp $10,%edi
 	jne loop
 	pushl %ebx
-	pushl %output
+	pushl $output
 	call printf
 	addl $8,%esp
 	pushl $0
